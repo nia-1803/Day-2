@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    background-color: bisque;
+}
+
+p{
+    color: blueviolet;
+    font-size: medium;
+    text-align: justify;
+}
+
+ul{
+    background: #4a4aff;
+    padding: 15px;
+    border-radius: 8px;
+}
+button{
+    cursor: pointer;
+    padding: 12px 14px;
+    color: peru;
+    border: none;
+    border-radius: 6px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(242, 23, 23, 0.3);
+    /*Here is a breakdown of the values:
+0 (Horizontal Offset): The shadow has no horizontal displacement. It is centered horizontally with the element.
+0 (Vertical Offset): The shadow has no vertical displacement. It is centered vertically with the element.
+100px (Blur Radius): This is a large blur radius, creating a very soft, widespread glow effect around the entire box.
+rgba(242, 23, 23, 0.1) (Color and Opacity): The shadow color is a shade of red (rgb(242, 23, 23)). The 0.1 is the alpha (opacity) value, meaning the shadow is very transparent (only 10% opaque), making it a subtle, light glow*/
+}
